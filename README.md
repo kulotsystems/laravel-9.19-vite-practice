@@ -9,24 +9,30 @@
 
 ## Installation
 1. Clone or download this repository.
-2. Go to the project root directory and execute the following commands:
+2. Open the project directory and **copy** `.env-example` to `.env` in its same directory.
+4. Open cloned directory in your terminal then run the following commands in order:
     
     *___a.___ Install backend dependencies:*
     ```composer log
     composer update
     ```
+   
+    *___b___. Generate application key:*
+    ```composer log
+    php artisan key:generate
+    ```
     
-    *___b___. Install frontend dependencies:*
+    *___c___. Install frontend dependencies:*
     ```composer log
     npm install
     ```
    
-    *___c___. Bundle assets:*
+    *___d___. Bundle assets:*
     ```composer log
     npm run dev
     ```
    
-    *___d___. Spin a local dev server on different terminal session*
+    *___e___. Spin a local dev server on different terminal session*
     ```composer log
     php artisan serve
     ```
