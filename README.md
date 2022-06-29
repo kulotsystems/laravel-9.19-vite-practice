@@ -31,6 +31,7 @@
     ```composer log
     npm run dev
     ```
+   `npm run build` for production
    
     *___e___. Spin a local dev server on different terminal session*
     ```composer log
